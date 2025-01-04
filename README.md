@@ -27,3 +27,14 @@ Here's a mistake in value passed to age when you want to get its value - This is
 (get age {username: "Ololade", age: 36})
 ```
 
+-------
+---------
+Merge overwrites similar value in a tuple:
+
+```
+(merge
+	{id: 5, score: 10, username: "ClarityIsAwesome"}
+	{score: 20, winner: true}
+)
+```
+
