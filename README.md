@@ -7,5 +7,11 @@ When you run the below:
 ```
 It returns "none". Note that it doesn't revert.
 
----
+Samething goes for the below:
+
+```
+(element-at (list 1 3 5 7 9) u5)
+```
+
+---`
 ------
